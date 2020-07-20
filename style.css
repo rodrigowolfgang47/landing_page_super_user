@@ -22,6 +22,7 @@ main{
     justify-content: center;
     align-items: center;
     height: 100vh;
+    margin: 50px 100px;
 }
 
 .conteudo{
@@ -98,9 +99,16 @@ form{
 }
 
 h1{
-    font-weight: 22px;
+    font-size: 23px;
     font-weight: bold;
     color: white;
+    text-transform: uppercase;
+    text-align: center;
+}
+
+h1 span{
+    font-weight: bolder;
+    font-size: 46px;
 }
 
 input, button, select{
@@ -115,6 +123,15 @@ input, button, select{
 
 input, button, select:focus{
     outline: none;
+}
+
+button{
+    font-weight: bolder;
+    background-color: rgba(191, 42, 42, 1);
+    height: 65px;
+    font-size: 19px;
+    box-shadow: 3px 3px 18px 6px rgba(0, 0, 0, 0.5);
+    color: white;
 }
 
 #ov-estado{
