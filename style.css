@@ -1,0 +1,128 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: 'Montserrat', sans-serif;
+}
+
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    background-image: url(img/background.png);
+    background-size: 100%;
+}
+
+main{
+    display: flex;
+    max-width: 1170px;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.conteudo{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    flex-direction: column;
+    width: 50%;
+
+}
+
+.logo-texto{
+    display: flex;
+    flex-direction: column;
+    height: 50%;
+    justify-content: space-between;
+}
+
+.conteudo div{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.textos{
+    text-align: justify;
+    max-width: 70%;
+}
+
+#logo{
+    display: flex;
+    justify-content: center;
+    margin: 20px 0 30px 0;
+}
+
+#logo img{
+    width: 70%;
+}
+
+.video{
+    display: flex;
+    justify-content: center;
+    height: 50%;
+}
+
+iframe{
+    max-width: 80%;
+    box-shadow: 2px 2px 22px 7px rgba(0, 0, 0, 0.2);
+    margin-top: 30px;
+}
+
+.formulario{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 50%;
+    min-width:285px
+}
+
+form{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    height: 50%;
+    max-width: 600px;
+    width: 90%;
+    height: 645px;
+    background-color: rgba(191, 42, 42, 1);
+    border-radius: 10px;
+    padding: 15px 65px;
+}
+
+h1{
+    font-weight: 22px;
+    font-weight: bold;
+    color: white;
+}
+
+input, button, select{
+    height: 45px;
+    padding-left: 15px;
+    border-radius: 5px;
+    border: none;
+    width: 100%;
+    font-weight: 600;
+    text-transform: uppercase;
+}
+
+input, button, select:focus{
+    outline: none;
+}
+
+#ov-estado{
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+}
+
+select{
+    max-width: 48%;
+}
