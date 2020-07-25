@@ -25,14 +25,14 @@
 
         <!--Lado direito com os fomulário-->
         <div class="formulario">
-            <form method="POST" data-netlify="true">
+            <form method="POST" action="formula.php">
                 <h1>Cadastre-se e seja um <span>super user</span> </h1>
-                <input type="text" id="nome" placeholder="Nome">
-                <input type="email" id="email" placeholder="E-mail">
-                <input type="number" id="idade" placeholder="Idade">
-                <input type="tel" id="telefone" placeholder="Number com DDD">
+                <input type="text" id="nome" name="nome" placeholder="Nome">
+                <input type="email" id="email" name="email" placeholder="E-mail">
+                <input type="number" id="idade" name="idade" placeholder="Idade">
+                <input type="tel" id="telefone" name="telefone" placeholder="Number com DDD">
                 <section id="ov-estado">
-                    <select name="Estado" id="estado">
+                    <select name="estado" id="estado">
                         <option value="AC">Acre</option>
                         <option value="AL">Alagoas</option>
                         <option value="AP">Amapá</option>
@@ -61,7 +61,7 @@
                         <option value="SE">Sergipe</option>
                         <option value="TO">Tocantins</option>
                     </select>
-                    <select name="Estado" id="ov">
+                    <select name="ov" id="ov">
                         <option value="Matriz">Matriz</option>
                         <option value="OV01">OV01</option>
                         <option value="OV02">OV02</option>
@@ -92,7 +92,7 @@
                         <option value="OV27">OV27</option>
                     </select>
                 </section>
-                <button type="submit" id="envar">
+                <button type="submit" id="BTEnvia" name="BTEnvia">
                     Inscrever-se
                 </button>
             </form>
