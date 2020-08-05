@@ -30,7 +30,7 @@ main{
     justify-content: flex-start;
     align-items: center;
     flex-direction: column;
-    width: 50%;
+    width: 100%;
 
 }
 
@@ -76,70 +76,19 @@ iframe{
     margin-top: 30px;
 }
 
-.formulario{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    width: 50%;
-    min-width:285px
-}
-
-form{
+.mensagem{
+    margin-top: 50px;
+    width:978px;
+    height: 1170px;
+    background-color: #de2525;
     display: flex;
     flex-direction: column;
-    justify-content: space-around;
-    align-items: center;
-    height: 50%;
-    max-width: 600px;
-    width: 90%;
-    height: 645px;
-    background-color: rgba(191, 42, 42, 1);
-    border-radius: 10px;
-    padding: 15px 65px;
+    padding: 45px;
+    align-items: flex-start;
 }
 
 h1{
-    font-size: 23px;
-    font-weight: bold;
+    font-size: 22px;
+    text-align: justify;
     color: white;
-    text-transform: uppercase;
-    text-align: center;
-}
-
-h1 span{
-    font-weight: bolder;
-    font-size: 46px;
-}
-
-input, button, select{
-    height: 45px;
-    padding-left: 15px;
-    border-radius: 5px;
-    border: none;
-    width: 100%;
-    font-weight: 600;
-    text-transform: uppercase;
-}
-
-input, button, select:focus{
-    outline: none;
-}
-
-button{
-    font-weight: bolder;
-    background-color: rgba(191, 42, 42, 1);
-    height: 65px;
-    font-size: 19px;
-    box-shadow: 3px 3px 18px 6px rgba(0, 0, 0, 0.5);
-    color: white;
-}
-
-#ov-estado{
-    display: flex;
-    justify-content: space-between;
-    width: 100%;
-}
-
-select{
-    max-width: 48%;
 }
