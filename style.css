@@ -14,7 +14,7 @@ body{
     align-items: center;
     width: 100%;
     background-image: url(img/background.png);
-    background-size: 100%;
+    background-size: 150%;
 }
 
 main{
@@ -140,24 +140,48 @@ h1 em{
 }
 
 a{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    height: 45px;
-    width: 80%;
-    background-color: #fff;
     color:#de2525;
     font-size: 22px;
     font-weight: bold;
     text-decoration: none;
     text-align: center;
     text-transform: uppercase;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 50px;
+    width: 80%;
+    background-color: #fff;
     border-radius: 7px;
     margin-top: 30px;
 }
 
 footer{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
     background-color: #fff;
-    height: 300px;
-    width: 100%;
+    justify-content: center;
+    width: 100%; 
+}
+
+.logo{
+    display: flex;
+    justify-content: center;
+    padding: 25px 0px;
+}
+
+.logo img{
+    width: 150px;
+}
+
+.redes-social{
+    display: flex;
+    justify-content: space-around;
+    width: 150px;
+}
+
+.social img{
+    width: 40px;
+    margin-bottom: 7px;
 }
