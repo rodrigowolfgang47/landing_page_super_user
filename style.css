@@ -9,7 +9,8 @@
 
 body{
     display: flex;
-    justify-content: center;
+    flex-direction: column;
+    justify-content: space-between;
     align-items: center;
     width: 100%;
     background-image: url(img/background.png);
@@ -68,13 +69,11 @@ iframe{
 .mensagem{
     margin-top: 50px;
     width:70%;
-    height: 1170px;
     background-color: #de2525;
     display: flex;
     flex-direction: column;
-    padding: 10%;
-    padding-top: 50px;
-    align-items: flex-start;
+    padding: 50px 10%;
+    align-items: center;
     border-radius: 10px;
 }
 
@@ -138,4 +137,27 @@ h1 em{
     width: 80px;
     height: 80px;
     margin-bottom: 20px;
+}
+
+a{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 45px;
+    width: 80%;
+    background-color: #fff;
+    color:#de2525;
+    font-size: 22px;
+    font-weight: bold;
+    text-decoration: none;
+    text-align: center;
+    text-transform: uppercase;
+    border-radius: 7px;
+    margin-top: 30px;
+}
+
+footer{
+    background-color: #fff;
+    height: 300px;
+    width: 100%;
 }
