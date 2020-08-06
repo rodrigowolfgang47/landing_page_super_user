@@ -21,13 +21,11 @@ main{
     max-width: 1170px;
     justify-content: center;
     align-items: center;
-    height: 100vh;
     margin: 50px 100px;
 }
 
 .conteudo{
     display: flex;
-    justify-content: flex-start;
     align-items: center;
     flex-direction: column;
     width: 100%;
@@ -40,15 +38,6 @@ main{
     height: 50%;
     justify-content: space-between;
 }
-
-.conteudo div{
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    text-align: center;
-}
-
 .textos{
     text-align: justify;
     max-width: 70%;
@@ -61,7 +50,7 @@ main{
 }
 
 #logo img{
-    width: 70%;
+    width: 75%;
 }
 
 .video{
@@ -78,17 +67,74 @@ iframe{
 
 .mensagem{
     margin-top: 50px;
-    width:978px;
+    width:70%;
     height: 1170px;
     background-color: #de2525;
     display: flex;
     flex-direction: column;
-    padding: 45px;
+    padding: 10%;
+    padding-top: 50px;
     align-items: flex-start;
+    border-radius: 10px;
+}
+
+.informacao-titulo{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
 }
 
 h1{
-    font-size: 22px;
+    font-size: 16px;
+    text-align: justify;
+    text-align: center;
+    color: white;
+    font-weight: normal;
+    padding-left: 20px;
+    padding-right: 40px;
+}
+
+h1 em{
+    font-size: 26px;
+    font-weight: bold;
+}
+
+.barra{
+    margin:20px 0px ;
+    height: 1px;
+    width: 100%;
+    background-color:#fff;
+    align-self: center;
+}
+
+.informacao-2{
+    display: flex;
+    flex-direction: row;
+    margin-top: 50px;
+    justify-content: space-between;
+}
+
+.texto-informacao{
+    font-size: 16px;
     text-align: justify;
     color: white;
+    font-weight: normal;
+    padding-left: 20px;
+    padding-right: 40px;
+}
+
+.texto-informacao em{
+    font-size: 26px;
+    font-weight: bold;
+}
+
+.icon{
+    width: 20%;
+    margin-bottom: 20px;
+}
+
+.icon-2{
+    width: 19%;
+    margin-bottom: 20px;
 }
