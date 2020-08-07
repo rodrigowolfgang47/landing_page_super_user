@@ -222,6 +222,16 @@ footer{
     align-self: center;
 }
 
+.button{
+    text-align: center;
+    width: 200px;
+    height: 45px;
+    color: #fff;
+    border-radius: 50px;
+    background-color:#de2525;
+    margin-top: 30px;
+}
+
 @media(max-width: 768px){
     .mensagem {
         width: 99%;
